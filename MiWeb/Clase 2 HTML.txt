@@ -1,0 +1,9 @@
+carpetas:
+css
+script
+image
+
+
+Para agrupar 2 celdas:
+le saco un td y le agrego colspan="2" (2 columnas por ej.)
+Con rowspan expando celdas en mas de 1 fila

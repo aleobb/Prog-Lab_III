@@ -1,0 +1,6 @@
+{
+"dueño" : "Mariano", 
+"num_habitacines": 10,
+"demoler": "function(){ this.num_habitacines = this.num_habitacines - 1; }"
+
+};

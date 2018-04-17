@@ -1,0 +1,46 @@
+/*SELECTOR UNIVERSAL*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color:blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200px;
+    
+}
+
+.caja1{
+    
+        background-color:chocolate;
+        font-size: 200px;
+        
+    
+        box-sizing: border-box;
+        
+    
+    }
+    
+
+/*
+body{....
+/* para dar estilo a una clase uso el . seguido del nombre de la clase */
+
+#parrafo2{
+    background-color:blueviolet;
+    
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic; /*estilo de la fuente*/
+    font-weight: normal, lighter ; /*grosor*/
+    
+    text-decoration: underline;
+    text-align: center;
+
+    text-indent: 0%; /* tamaño dentro del contenedor*/
+    
+    text-transform: capitalize;
+
+    }

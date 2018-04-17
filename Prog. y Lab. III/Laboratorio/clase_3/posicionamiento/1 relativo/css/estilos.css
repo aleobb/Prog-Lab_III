@@ -1,0 +1,10 @@
+#box1,#box2,#box3 {
+    background-color:rgb(255, 223, 153);
+    font-family:verdana;
+    font-size:1.3rem;
+  }
+  #box2 {
+    position:relative;
+    left:15px;
+    top:5px;
+  

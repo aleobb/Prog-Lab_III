@@ -1,0 +1,46 @@
+
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('alexbrush-regular-webfont.woff2') format('woff2'), /* ubicacion del los archivos font*/
+         url('alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+    p{
+        font-family: "alex_brushregular";
+        font-size: 300%;
+    }
+    
+    
+    
+    #parrafo1{
+        color: blue;
+        text-transform: capitalize;
+    }
+
+    .naranja{
+        background-color: orange;
+    }
+
+    
+
+    .letraazul{
+        color: blueviolet;
+    }
+
+
+
+    /*    
+    h1{
+     
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 58px;
+      font-style: italic;
+      font-weight:900;
+      font-variant: small-caps;
+      text-decoration:line-through;
+      line-height: 100%;
+      text-align: right;
+      letter-spacing: 100px;
+
+      /*ultimo el size y la fuente*/

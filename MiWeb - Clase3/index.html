@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <caption>
+        Tabla de Prueba
+    </caption>
+    <table border="1" style="width:500px;">
+        <thead>
+
+                <tr>
+                        <th>Legajo</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Edad</th>
+                </tr>        
+
+                    
+        </thead>
+
+        <tbody>
+                    <tr>
+                        <td>123</td>
+                        <td>Juan</td>
+                        <td>Perez</td>
+                        <td>23</td>
+                    </tr>  
+                    <tr>
+                        <td>123</td>
+                        <td>Juan</td>
+                        <td>Perez</td>
+                        <td>23</td>
+                    </tr>          
+                    <tr>
+                        <td>123</td>
+                        <td>Juan</td>
+                        <td>Perez</td>
+                        <td>23</td>
+                    </tr>          
+                    <tr>
+                        <td colspan="2">Juan</td>
+                        <td>Perez</td>
+                        <td>23</td>
+                    </tr> 
+
+                    <br>
+                    <br>
+                    <br>
+                    <tfoot>
+
+
+                    </tfoot>
+                </tbody>
+ 
+    </table>
+    <br>
+    <br>
+    <br>
+        <form action="#" method="GET" enctype="multipart/form-data">
+
+            <label for="txtnombre">Ingrese nombre:</label>
+            
+            <input type="text" name="nombre" id="txtnombre" placeholder="ingrese su nombre aqui" maxlength="10"><br></input>
+            <input type="submit" value="Enviar info">
+            <input type="reset">
+
+            <fildset >
+                <legend>Lenguajes </legend>
+                <input type="checkbox" name="" id="">C#<br>                          
+                <input type="checkbox">Java<br>
+                <input type="checkbox" disabled>Javascript<br>              
+            </fildset>
+            <br>    <br>    <br>
+            <fildset >
+                    <legend>Genero </legend>
+                    <input type="radio" name="Genero" value="0" id="">Masculino<br>                          
+                    <input type="radio" name="Genero" value="1" id="">Femenino<br>
+                    <input type="radio" name="Genero" value="2" id="" checked>Otro<br>              
+            </fildset>
+            <br>    <br>    <br>
+
+            <select name="localidad[]" id="cbolocalidad" size="10" multiple>
+                <optgroup label="Hola">
+                    <option value="Avellaneda">Avellaneda</option>
+                    <option value="1">Quilmes</option>
+                </optgroup>
+                <optgroup label="fuck">
+                    <option value="">Bernal</option>
+                    <option value="" selected>Berazategui</option>
+                    <option value="">Lanus</option>
+                </optgroup>
+            </select>
+            <br>    <br>    <br>
+
+            <label for="mail">ingrese mail</label>
+            <input type="email" name="email">
+            <br>
+            <label for="txturl">ingrese url</label>
+            <input type="url" name="txturl">
+            <br>
+            <label for="txtfile">file</label>
+            <input type="file" name="txtfile">
+
+            <input type="text" name="" tabindex="1"><br>
+            <input type="text" name="" tabindex="4"><br>
+            <input type="text" name="" tabindex="7">
+            <input type="text" name="" tabindex="2">
+            <input type="text" name="" tabindex="8"><br>
+            <input type="text" name="" tabindex="3"><br>
+            <br><br><br><br>password<br>
+            <input type="password" name="" id="">
+
+            <br><br>
+            <input type="hidden" name="">  <!-- para guardar info que no quiero que se muestre -->
+
+            <input type="range" min="1" max="10">
+            <br><br>
+            <input type="number" min="1" max="10">
+
+            <br><br>
+
+            <video src="multimedia/video/Wildlife.mp4" height="300px" controls preload=""></video>
+
+        </form>
+
+</body>
+</html>

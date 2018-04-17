@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Th = texto en negrita y centrado en la celda -->
+    <table border="1" style="width:500px">
+
+        <!-- Titulo de la tabla -->
+        <caption>
+            <b>Table de Prueba</b>
+        </caption>
+
+        <thead>
+            <tr>
+                <th>Legajo</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <!-- colspan -->
+            <tr>
+                <td colspan="2">123</td>
+                <td>Perez</td>
+                <td>23</td>
+            </tr>
+
+            <tr>
+                <td>123</td>
+                <td>Juan</td>
+                <td>Perez</td>
+                <td>23</td>
+            </tr>
+            <!-- rowspan  -->
+            <tr>
+                <td rowspan="2">123</td>
+                <td>Juan</td>
+                <td>Perez</td>
+                <td>23</td>
+            </tr>
+
+            <tr>
+                <td>Juan</td>
+                <td>Perez</td>
+                <td>23</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>123</td>
+                <td>Manuel</td>
+                <td>Perez</td>
+                <td>23</td>
+            </tr>
+
+            <tr>
+                <td>321</td>
+                <td>Luis</td>
+                <td>Aguirre</td>
+                <td>23</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- FORMULARIO -->
+
+    <form action="#" method="GET">
+        <!-- for es el id -->
+        <label for="nombre">Ingrese Nombre:</label>
+        <input type="text" name="" id="nombre" placeholder="ingrese su nombre">
+        <br>
+        <input type="submit" value="Enviar Nombre">
+        <input type="reset">
+
+        <fieldset>
+            <legend>Seleccione</legend>
+            <input type="checkbox" name="csharp" id="">C#
+            <br>
+            <input type="checkbox" name="java" id="">Java
+            <br>
+            <input type="checkbox" name="javascript" id="" disabled>Javascript
+            <!-- disable -->
+            <br>
+        </fieldset>
+
+        <br>
+        <br>
+        <br>
+        <!-- el radio retorna lo que se declara en value -->
+        <fieldset>
+            <legend>Genero</legend>
+            <input type="radio" name="csharp" value="0">Masculino
+            <br>
+            <input type="radio" name="java" value="1">Femenino
+            <br>
+            <input type="radio" name="javascript" value="2">Otro
+            <br>
+        </fieldset>
+
+        <br>
+        <br>
+
+        <legend>Seleccionar Localidad</legend>
+
+        <select name="localidad[]" id="cboLocalidad" size="7" multiple>
+            <optgroup label="Frutas">
+                <option value="Avellaneda">Avellaneda</option>
+                <option value="Quilmes">Quilmes</option>
+            </optgroup>
+
+            <optgroup label="Verduras">
+                <option value="Bernal">Bernal</option>
+                <option value="Lanus">Lanus</option>
+                <option value="Temperley">Temperley</option>
+            </optgroup>
+        </select>
+
+        <!-- MAIL -->
+        <br>
+        <br>
+        <label>Email:</label>
+        <!-- verifica que sea un mail -->
+        <input type="email" name="mail" id="" required>
+        <br>
+        <input type="URL" name="" id="">
+
+        <!-- enctype="multipart/form-data" /////sino el archivo no se empaqueta -->
+
+        <input type="file" name="" id="">
+
+        <br>
+        <br>
+        <!-- moverse con tab -->
+        <input type="text" name="" id="" tabindex="1">
+        <input type="text" name="" id="" tabindex="2">
+        <input type="text" name="" id="" tabindex="3">
+        <br>
+        <input type="text" name="" id="" tabindex="4">
+        <input type="text" name="" id="" tabindex="5">
+        <input type="text" name="" id="" tabindex="6">
+        <br>
+        <input type="text" name="" id="" tabindex="7">
+        <input type="text" name="" id="" tabindex="8">
+
+        <!-- PASSWORD -->
+        <input type="password" name="" id="" tabindex="9">
+        <br>
+
+        <br>
+        <!-- mandar cosas ocultas al servidor sino quiero que se vea -->
+        <input type="hidden" name="" id="">
+
+        <!-- rango -->
+        <input type="range" name="" id="">
+
+        <!-- multimedia video -->
+    </form>
+    <!-- controls/autoplay -->
+    <video src="/multimedia/video/codigo.mp4" height="300px"></video>
+
+</body>
+
+</html>

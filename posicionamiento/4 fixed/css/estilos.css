@@ -1,0 +1,27 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+#boxsuperior{
+  position:fixed;
+  left:0px;
+  width:100%;
+  height:50px;
+  background-color:black;
+  color:white;
+}
+
+#boxlateral{
+  position:fixed;
+  left:0px;
+  top:50px;
+  width:200px;
+  height:100%;
+  background-color:#eee;
+}
+
+#relleno{
+  padding-top:70px;
+  padding-left:220px;
+}
