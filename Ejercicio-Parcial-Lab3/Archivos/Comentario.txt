@@ -1,0 +1,3 @@
+ale2@hotmail.com,mi fuking titulo,mi fuking comentario,Sin Imagen
+ale2@hotmail.com,mi titulo22,mi comentario22,Sin Imagen
+ale@hotmail.com,mi-titulo,mi comentario,ImagenesDeComentario/mi-titulo.png
